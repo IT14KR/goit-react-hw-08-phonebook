@@ -24,7 +24,7 @@ export const ContactList = () => {
     <List>
       {visibleContacts.map(contact => (
         <Item key={contact.id}>
-          {contact.name + ' : ' + contact.phone}
+          {contact.name + ' : ' + contact.number}
 
           <Button
             type="button"
