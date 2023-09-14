@@ -53,20 +53,4 @@ export const App = () => {
       </Routes>
     </div>
   );
-
-  // return (
-  //   <Container>
-  //     <Title>Phonebook</Title>
-
-  //     <ContactForm />
-
-  //     <SubTitle>Contacts</SubTitle>
-  //     {contacts.length > 0 ? (
-  //       <Filter />
-  //     ) : (
-  //       <Wrapper>Your phonebook is empty. Add first contact!</Wrapper>
-  //     )}
-  //     {contacts.length > 0 && <ContactList />}
-  //   </Container>
-  // );
 };
